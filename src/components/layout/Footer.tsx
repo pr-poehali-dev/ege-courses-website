@@ -1,4 +1,3 @@
-
 import Icon from "@/components/ui/icon";
 
 const Footer = () => {
@@ -15,19 +14,83 @@ const Footer = () => {
           <div>
             <h3 className="font-medium mb-4 text-white">Быстрые ссылки</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Курсы</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors">О нас</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Преподаватели</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Отзывы</a></li>
+              <li>
+                <a
+                  href="#"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Курсы
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  О нас
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Преподаватели
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Отзывы
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/offer"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Публичная оферта
+                </a>
+              </li>
             </ul>
           </div>
           <div>
             <h3 className="font-medium mb-4 text-white">Предметы</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Русский язык</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Математика</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Обществознание</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Все предметы</a></li>
+              <li>
+                <a
+                  href="#"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Русский язык
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Математика
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Обществознание
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-slate-400 hover:text-white transition-colors"
+                >
+                  Все предметы
+                </a>
+              </li>
             </ul>
           </div>
           <div>
@@ -49,18 +112,32 @@ const Footer = () => {
           </div>
         </div>
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="text-slate-400">© 2025 ЕГЭМастер. Все права защищены.</div>
+          <div className="text-slate-400">
+            © 2025 ЕГЭМастер. Все права защищены.
+          </div>
           <div className="flex gap-4">
-            <a href="#" className="text-slate-400 hover:text-white transition-colors">
+            <a
+              href="#"
+              className="text-slate-400 hover:text-white transition-colors"
+            >
               <Icon name="Instagram" />
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors">
+            <a
+              href="#"
+              className="text-slate-400 hover:text-white transition-colors"
+            >
               <Icon name="Facebook" />
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors">
+            <a
+              href="#"
+              className="text-slate-400 hover:text-white transition-colors"
+            >
               <Icon name="Twitter" />
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors">
+            <a
+              href="#"
+              className="text-slate-400 hover:text-white transition-colors"
+            >
               <Icon name="Youtube" />
             </a>
           </div>
